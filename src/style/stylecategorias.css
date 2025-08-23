@@ -1,0 +1,143 @@
+.categoria {
+  text-align: center;
+  font-size: 40px;
+  
+}
+.categoria h2{
+  margin: 20px;
+  padding: 10px;
+  border-top: 10px solid brown;
+  display: inline-block;
+}
+.categoria article{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.categoria div {
+  background-color: brown;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.categoria img{
+  margin-top: 15px;
+}
+.categoria div:hover{
+    background-color: black;
+    transition: padding 1s ease;
+    padding: 8px;
+    transition: padding 0.3s ease;
+}
+.linkcat{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 2px 15px 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Listaitems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Listaitems article{
+  width: 250px;
+  height: 300px;
+  margin: 5px;
+  background-color:rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.Listaitems div img{
+  width:60%;
+  margin: 5px 0px;
+}
+.items{
+  display: block;
+  width: 200px;
+  height: 250px;
+  margin:20px auto;
+  font-size: 13px;
+}
+.items div{
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: 10px;
+ 
+}
+.boton-carrito{
+  font-size: 20px;
+  font-weight: 900;
+  padding: 2px 8px;
+  color: #ffffff;
+  background-color: rgb(0, 68, 194);
+  border-radius: 5px;
+  border: none;
+  padding: 5px 9px 7px 9px;
+}
+
+
+.contenedor{
+  width: 80%;
+  display:flex;
+  margin: 50px auto;
+}
+.section{
+  width: 75%;
+}
+.section h1{
+  font-size: 50px;
+  margin: 0px 20px 20px 20px;
+  color: rgb(161, 0, 0);
+}.section h6{
+  font-size: 15px;
+  margin-left: 20px;
+  
+}
+aside{
+  width: 25%;
+  height: 400px;
+  font-size: 25px;
+  background-color: rgb(230, 234, 238);
+  color: #b10808;
+  font-weight: bold;
+  border-radius:10px ;
+  border: 5px solid rgba(255, 255, 255, 0.712);
+}
+aside h1{
+  margin: 20px;
+  border-bottom: 5px solid #b10808;
+}
+aside li{
+  margin: 20px;
+  list-style: none;
+}
+.asidelink{
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+.items h5{
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.582);
+}
+.items h4{
+  color: red;
+}
+.boton-carrito:hover{
+  background-color: rgb(8, 44, 114);
+  cursor: pointer;
+}
+.boton-carrito:active{
+  color: black;
+}

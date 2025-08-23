@@ -1,0 +1,99 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+    
+}
+body{background-color: #F5F7F9;}
+header{
+    display: block;
+    background-color: rgba(10, 10, 10, 0.952); 
+}
+.content-header{
+    width: 80%;
+    min-height: 100px;
+    margin:auto auto;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+.content-header div{
+    margin: auto;display: flex;
+
+}
+.header-logo img{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    
+}
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.header-menu  li{
+    list-style: none;
+}
+.header-carrito h4{
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+
+.header-carrito img{
+    width: 45px;height: 40px;
+    margin-left: 10px;
+    background-color: #F5F7F9;
+    border-radius: 50%;
+}
+.header-carrito img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.header-link,.header-link2{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(247, 247, 247);
+    padding: 0px 10px 0px 10px;
+
+    display: block;
+   
+}
+.listapadre{
+    position: relative;
+}
+.listahija {
+    position: absolute;
+    display:none;
+   
+}
+.listahija li{
+    margin: 10px 0px;
+    text-align: left;
+    
+}
+.listapadre:hover .listahija {
+   display: block;
+   background-color: rgb(17, 17, 17);
+   margin-bottom: 20px;
+   z-index: 2;
+   font-size: 12px;
+}
+.header-lista :hover,.listapadre:hover{
+    font-size: 16px;
+    opacity: 1.5;
+    font-weight: bold;
+    border-top: 2px solid white;
+}
+.header-link2:hover{
+    border-top: none;
+    font-size: 15px;
+    color:white;
+    background-color: rgb(0, 0, 0);
+}   
+
+
