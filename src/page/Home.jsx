@@ -5,7 +5,7 @@ import { ArticleMenu } from '../components/ArticleMenu'
 import { ArticleMenu2 } from '../components/ArticleMenu2'
 import { Footer } from '../components/Footer'
 
-export const Index = () => {
+export const Home = () => {
   return (
     <>
       <header>

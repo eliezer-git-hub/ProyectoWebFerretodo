@@ -53,9 +53,9 @@ export const ContendHerramientas = () => {
         <h1>HERRAMIENTAS Y MAQUINAS</h1>
         <div className='Listaitems'>
             {
-                itemherramienta.map((item)=>(
-                    <article>
-                        <div className='items'>
+                itemherramienta.map((item,index)=>(
+                    <article key={index}>
+                        <div className='items' key={index}>
                             <img src={item.img} alt="" />
                             <h2>{item.nombre}</h2>
                             <div>

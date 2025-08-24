@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import imgpintura1 from '../image/PINTURA/Barniz.png'
-import imgpintura2 from '../image/PINTURA/Brocha21.JPG'
+import imgpintura2 from '../image/PINTURA/Brocha21.jpg'
 import imgpintura3 from '../image/PINTURA/Pintura.jpg'
 import imgpintura4 from '../image/PINTURA/Thinner.png'
 import imgpintura5 from '../image/PINTURA/Sellador.png'
@@ -54,9 +54,9 @@ export const ContendPintura = () => {
         <h1>PINTURAS Y BROCHAS</h1>
         <div className='Listaitems'>
             {
-                itempimtura.map((item)=>(
-                    <article>
-                        <div className='items'>
+                itempimtura.map((item,index)=>(
+                    <article key={index}>
+                        <div className='items' key={index}>
                             <img src={item.img} alt="" />
                             <h2>{item.nombre}</h2>
                             <div>

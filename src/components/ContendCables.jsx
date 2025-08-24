@@ -54,9 +54,9 @@ export const ContendCables = () => {
         <h1>ELECTRICIDAD Y CABLE</h1>
         <div className='Listaitems'>
             {
-                itemcable.map((item)=>(
-                    <article>
-                        <div className='items'>
+                itemcable.map((item,index)=>(
+                    <article key={index}>
+                        <div className='items' key={index}>
                             <img src={item.img} alt="" />
                             <h2>{item.nombre}</h2>
                             <div>
