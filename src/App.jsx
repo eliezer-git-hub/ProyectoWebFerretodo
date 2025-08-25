@@ -13,7 +13,7 @@ function App() {
     <div>
     <UsarContex>
       <Routes>
-        <Route path='' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/categorias' element={<Categorias/>}/>
         <Route path='/categorias/pintura' element={<CategoriasPintura/>}/>
         <Route path='/categorias/cables' element={<CategoriasCables/>}/>
