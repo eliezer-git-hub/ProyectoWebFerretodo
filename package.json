@@ -1,5 +1,5 @@
 {
-  "homepage":"https://eliezer-git-hub.github.io/ProyectoWebFerretodo/",
+  "homepage": "https://eliezer-git-hub.github.io/ProyectoWebFerretodo/",
   "name": "ferretodo",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^6.30.1"
